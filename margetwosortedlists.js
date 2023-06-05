@@ -19,11 +19,11 @@ const mergeTwoLists = function(list1, list2) {
             mergedList.next = list2
             list2 = list2.next
         }
-
+        //point to next node down the list
         mergedList = mergedList.next
     }
 
-    
+
     if (list1 == null) {
         mergedList.next = list2
     } else {
